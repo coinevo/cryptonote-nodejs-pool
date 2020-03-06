@@ -168,7 +168,7 @@
 					<td class="miningAppTitle">XMRig</td>
 					<td>CPU</td>
 					<td>Ligthweight but powerful CPU Mining App</td>
-					<td><a class="btn btn-success" target="_blank" href="https://github.com/xmrig/xmrig/releases/latest"><span data-tkey="download">Download</span></a></td>
+					<td><a class="btn btn-success" target="_blank" href="https://github.com/coinevo/xmrig/releases/latest"><span data-tkey="download">Download</span></a></td>
 					<td><a class="btn btn-default" role="button" data-toggle="collapse" href="#xmrig" aria-expanded="true" aria-controls="collapseExample"><span data-tkey="showConfig">See more</span></a></td>
 				</tr>
 				<tr class="appConfig">
@@ -370,7 +370,11 @@
 				} else if (cnVariant === 18) {
 					algorithm = 'RandomXL';
 					xmrstakAlgo = 'randomX_loki';
-				} else {
+				} else if (cnVariant === 19) {
+					algorithm = 'RandomEVO';
+					xmrstakAlgo = 'randomX_evo';
+				}
+				else {
 					algorithm = 'RandomX';
 					xmrstakAlgo = 'randomX';
 				}

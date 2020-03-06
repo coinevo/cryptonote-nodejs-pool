@@ -1,17 +1,17 @@
 var api = "https://multi-miner.smartcoinpool.net:8119";
-let parentCoin = "Arqma"
+let parentCoin = "Coinevo"
 
 var email = "support@poolhost.com";
-var telegram = "https://t.me/YourPool";
-var discord = "https://discordapp.com/invite/YourPool";
-var facebook = "https://www.facebook.com/<YourPoolFacebook>";
+var telegram = "https://t.me/coinevo";
+var discord = "https://discord.gg/XTgDKGW";
+var facebook = "https://twitter.com/coinevo2";
 
 var marketCurrencies = ["{symbol}-BTC", "{symbol}-LTC", "{symbol}-DOGE", "{symbol}-USDT", "{symbol}-USD", "{symbol}-EUR", "{symbol}-CAD"];
 
-var blockchainExplorer = "http://chainradar.com/{symbol}/block/{id}";
-var blockchainExplorerMerged = "http://explorer.ird.cash/?hash={id}#block";
-var transactionExplorer = "http://chainradar.com/{symbol}/transaction/{id}";
-var transactionExplorerMerged = "http://explorer.ird.cash/?hash={id}#transaction";
+var blockchainExplorer = "https://explorer.coinevo.tech/{symbol}/block/{id}";
+var blockchainExplorerMerged = "https://explorer.coinevo.tech/?hash={id}#block";
+var transactionExplorer = "https://explorer.coinevo.tech/{symbol}/transaction/{id}";
+var transactionExplorerMerged = "https://explorer.coinevo.tech/?hash={id}#transaction";
 
 var themeCss = "themes/default.css";
 var defaultLang = 'en';

@@ -6,15 +6,15 @@
 	"Maintained by": "Musclesonvacation",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/muscleman/cryptonote-nodejs-pool.git"
+		"url": "https://github.com/coinevo/cryptonote-nodejs-pool.git"
 	},
 	"dependencies": {
 		"async": "1",
 		"base58-native": "*",
 		"bignum": "*",
 		"cli-color": "*",
-		"cryptoforknote-util": "git://github.com/MoneroOcean/node-cryptoforknote-util.git",
-		"cryptonight-hashing": "git://github.com/MoneroOcean/node-cryptonight-hashing.git",
+		"cryptoforknote-util": "git://github.com/coinevo/node-cryptoforknote-util.git",
+		"cryptonight-hashing": "git://github.com/coinevo/node-cryptonight-hashing.git",
 		"dateformat": "*",
 		"mailgun.js": "*",
 		"node-telegram-bot-api": "*",
