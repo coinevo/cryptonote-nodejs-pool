@@ -5,7 +5,7 @@
 	"symbol": "EVO",
 	"coinUnits": 100000000000,
 	"coinDecimalPlaces": 4,
-	"coinDifficultyTarget": 300,
+	"coinDifficultyTarget": 120,
 	"blockchainExplorer": "https://explorer.coinevo.tech/block/{id}",
 	"transactionExplorer": "https://explorer.coinevo.tech/tx/{id}",
 	"daemonType": "default",
